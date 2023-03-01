@@ -74,33 +74,38 @@ section:first-child{
 
 /* parte con list e border radius */
 
-.simbolo{
-    font-size: 10px;
+h2{
+    font-size: 20px;
+    font-weight: 700;
 }
 
-h2{
-    margin-top: 20px;
-    font-size: 20px;
+h2 span.arrow{
+    font-size: 10px;
+    vertical-align: middle;
 }
 
 .simbolo1{
     color: rgb(26, 243, 26);
     border: 1px solid rgb(26, 243, 26);
     border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
     text-align: center;
+    font-size: 15px;
+    vertical-align: middle;
 }
 
 .simbolo2{
     color: rgb(209, 25, 25);
     border: 1px solid rgb(209, 25, 25);
     border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
     text-align: center;
-}
-
-#todolist div{
-    font-size: 20px;
-    margin-top: 10px;
-    font-weight: 100;
+    font-size: 15px;
+    vertical-align: middle;
 }
 
 .editorial{
