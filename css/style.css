@@ -1,3 +1,6 @@
+
+/* impostazioni generali */
+
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -8,6 +11,8 @@
 body{
     background-color: rgb(133, 130, 130);
 }
+
+/* titolo e logo */
 
 header{
     width: 100%;
@@ -28,12 +33,18 @@ h1{
     display: inline;
 }
 
+/* contenitore generale */
+
 main{
     max-width: 800px;
-    height: 80%;
+    height: 70%;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
 }
+
+/* parte button */
 
 #button{
     width: 100%;
@@ -48,7 +59,6 @@ main{
     border-radius: 5px;
     text-align: center;
     color: white;
-    margin-left: 20px; 
 }
 
 .button2{
@@ -58,15 +68,12 @@ main{
     border-radius: 5px;
     text-align: center;
     color: rgb(182, 182, 182);
-    margin-left: 10px;
 }
+
+/* parte con list e border radius */
 
 .simbolo{
     font-size: 10px;
-}
-
-#todolist{
-    margin-left: 20px;
 }
 
 h2{
